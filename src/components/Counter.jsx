@@ -1,5 +1,11 @@
 import { useState } from 'react';
 
+// imutabilidade
+
+// usuarios = ['diego3g', 'diegosf', 'danileao']
+// usuarios.push('rafacamarda')
+
+// novoUsuarios = [...usuarios, 'rafacamarda'] // imutabilidade criar novos espaços na memória e não alterar a memória já existente 
 export default function Counter() {
 
     const [counter, setCounter] = useState(0);
